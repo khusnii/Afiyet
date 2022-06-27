@@ -18,9 +18,11 @@ namespace Afiyet.Service.Services
 {
     public class CustomerService : ICustomerService
     {
-
+       
 #pragma warning disable
-
+        /// <summary>
+        /// 
+        /// </summary>
         private readonly IUnitOfWork unitOfWork;
         private readonly IMapper mapper;
         private readonly IWebHostEnvironment env;
